@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { handleError500 } = require('../../../utilities/error-handle');
+const { handleError500 } = require('../../utilities/error-handle');
 const { Product, Category, Tag, ProductTag } = require('../../models');
 const { findByPk } = require('../../models/Category');
 

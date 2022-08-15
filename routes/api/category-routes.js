@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { handleError500 } = require("../../../utilities/error-handle");
+const { handleError500 } = require("../../utilities/error-handle");
 const { Category, Product } = require("../../models");
 
 // The `/api/categories` endpoint
