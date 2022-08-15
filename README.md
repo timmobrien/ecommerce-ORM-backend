@@ -34,6 +34,8 @@ Clone the repo to your machine using `git@github.com:/timmobrien/ecommerce-ORM-b
 ## Usage <a name="usage"></a>
 Navigate to the root folder and run the following command <br> `node server.js` <br> Once the server is running on the localhost, navigate to insomnia to make use of the database.
 
+
+
 ## License <a name="license"></a>
 [MIT](https://choosealicense.com/licenses/mit)
 
@@ -44,6 +46,10 @@ Pull requests are welcome.
 
 ## Tests <a name="tests"></a>
 See demo for project test.
+
+
+https://user-images.githubusercontent.com/20904553/184606287-e2116f8e-442e-4976-92ea-ac08616afd95.mp4
+
 
 ## Questions <a name="questions"></a>
 
