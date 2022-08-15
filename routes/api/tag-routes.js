@@ -21,14 +21,16 @@ router.get('/', async (req, res) => {
 // Get tag by ID
 router.get('/:id', async (req, res) => {
   try {
+    // Find the tag by the parameter ID
     const tag = await Product.findByPk(req.params.id, {
       include: [{model: Product, as: 'product_tags'}],
     });
-    
+    // Response in case there is no associated product
     if (tag === null){
       res.json({
         error: "Sorry, there are no tags with the given ID"
       })
+    // If there is a product, display it
     } else {
       res.json(tag);
     }
